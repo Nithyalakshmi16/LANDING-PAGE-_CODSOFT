@@ -1,0 +1,33 @@
+.button {
+    text-align: center;
+    font-weight: 700;
+    line-height: 27px;
+    padding: 10px 32px;
+    color: #eeeeee;
+    background-color: #00adb5;
+    border-radius: 24px;
+    transition: background-color 0.3s ease;
+}
+.button:hover,
+.button.active {
+    background-color: rgba(57, 62, 70, 0.75);;
+}
+.title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.2;
+    color: #EEEEEE;
+}
+.title span {
+    color: #00ADB5;
+}
+@media (max-width: 991.98px) {
+    .title{
+        font-size: 60px;
+    }
+}
+@media (max-width: 767.98px) {
+    .title{
+        font-size: 45px;
+    }
+}
